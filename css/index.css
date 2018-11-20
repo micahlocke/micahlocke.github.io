@@ -8,9 +8,14 @@ body {
   font-family: Ariel, Verdana, Helvetica, sans-serif;
   font-size: Medium;
   color: #000;
-  background-color: green; /* green */
+  background-color: #fcfcfc; /* off white */
 }
-h1 { color: #00F; } /* overrides body font color style above */
+h1 { 
+    
+    color: #494cff;
+    Font-family: Comic Sans, Ariel;
+        
+}/* overrides body font color style above */
 
 /* styles any list item in an unordered list */
 ul li {
