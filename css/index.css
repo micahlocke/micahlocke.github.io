@@ -1,0 +1,19 @@
+/* index1.css for index1.html 
+A few styles to illustrate the structure and formatting of a 
+CSS style file
+*/
+/* styles apply to every element in the body, unless overridden*/
+
+body { 
+  font-family: Ariel, Verdana, Helvetica, sans-serif;
+  font-size: Medium;
+  color: #000;
+  background-color: green; /* green */
+}
+h1 { color: #00F; } /* overrides body font color style above */
+
+/* styles any list item in an unordered list */
+ul li {
+  font-size: small;
+  font-style: italic: 
+}
