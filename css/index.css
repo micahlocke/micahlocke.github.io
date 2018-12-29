@@ -8,7 +8,9 @@ body {
   font-family: Ariel, Verdana, Helvetica, sans-serif;
   font-size: Medium;
   color: #000;
-  background-color: #fcfcfc; /* off white */
+  background-color: #fcfcfc;/* off white */
+    text-align: center;
+    
 }
 h1 { 
     
@@ -22,3 +24,4 @@ ul li {
   font-size: small;
   font-style: italic: 
 }
+
