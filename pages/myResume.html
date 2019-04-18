@@ -6,11 +6,54 @@
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+<link rel="stylesheet" href="../css/index.css">
+
+<!-- Navigation -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-warning">
+  <!-- Just an image -->
+  <nav class="navbar navbar-dark bg-warning">
+    <a class="navbar-brand" href="../index.html">
+      <!-- <img src="images/logo.png" width="413" height="30", alt="Logo"> -->
+    <picture>
+      <source media="(min-width: 900px)" srcset="../images/logo.png">
+      <source media="(min-width: 200px)" srcset="../images/logoM.png">
+      <img src="images/logo.png" alt="Logo">
+    </picture>
+    </a>
+  </nav>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="pages/aboutMe.html">About Me</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="pages/myMusic.html">My Hobbies</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="pages/myPictures.html">My Pictures</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="pages/myResume.html">My Résumé</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="pages/contactMe.html">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 <body>
+  <div class="download-buttons">
   <a href="../files/Micah%20Locke%20Resume%202019.pdf" download="MicahLockeResume"><button type="button" class="btn btn-outline-danger"><i class="far fa-file-pdf"></i> Download</button></a>
   <a href="../files/Micah%20Locke%20Resume%202019.docx" download="MicahLockeResume"><button type="button" class="btn btn-outline-primary"><i class="fab fa-microsoft"></i></i> Download</button></a>
+  </div>
+
   <div class="container">
-    <embed src="../files/Micah%20Locke%20Resume%202019.pdf" type="application/pdf" width="100%" height="600px" />
+    <embed src="../files/Micah%20Locke%20Resume%202019.pdf" type="application/pdf" width="100%" height="775px"/>
   </div>
 </body>
 
