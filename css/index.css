@@ -14,6 +14,20 @@ h1 {
 
 }/* overrides body font color style above */
 
+/* Navigation */
+
+.nav-item {
+  font-family: 'Scada', sans-serif;
+}
+
+/* Carousel */
+
+.carousel-pictures {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .carousel-inner {
   padding-top: 75px;
   padding-bottom: 25px;
@@ -21,6 +35,18 @@ h1 {
 
 .carousel-indicators {
   padding-bottom: 25px;
+}
+
+/* Featureettes */
+
+.featurette-pictures {
+  border-style: solid;
+  border-color: black;
+}
+
+.card-body {
+  border-style: solid;
+  border-color: black;
 }
 
 /* myResume */
