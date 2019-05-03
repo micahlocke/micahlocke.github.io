@@ -6,6 +6,8 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/index.css">
 
   <!-- Google Fonts -->
@@ -16,20 +18,21 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
   <!-- Bootstrap CSS -->
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
   <!-- Navigation -->
-  <link rel="stylesheet" href="css/bootstrap.css">
+
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-warning">
     <!-- Just an image -->
     <nav class="navbar navbar-dark bg-warning">
       <a class="navbar-brand" href="../index.html">
         <!-- <img src="images/logo.png" width="413" height="30", alt="Logo"> -->
-      <picture>
-        <source media="(min-width: 900px)" srcset="images/logo.png">
-        <source media="(min-width: 100px)" srcset="images/logoM.png">
-        <img src="images/logo.png" alt="Logo">
-      </picture>
+        <picture>
+          <source media="(min-width: 900px)" srcset="images/logo.png">
+          <source media="(min-width: 100px)" srcset="images/logoM.png">
+          <img src="images/logo.png" alt="Logo">
+        </picture>
       </a>
     </nav>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,7 +75,7 @@
       <div class="carousel-inner">
 
         <div class="carousel-item active">
-          <img class="carousel-pictures" src="images/MicahAboutMe.jpg" alt="About Me">
+          <img class="carousel-pictures img-fluid" src="images/MicahAboutMe.jpg" alt="About Me">
           <div class="container">
             <div class="carousel-caption text-left">
               <h1>About Me</h1>
@@ -83,7 +86,7 @@
         </div>
 
         <div class="carousel-item">
-          <img class="carousel-pictures" src="images/OlympiaNationalPark.jpg" alt="Pictures">
+          <img class="carousel-pictures img-fluid" src="images/OlympiaNationalPark.jpg" alt="Pictures">
           <div class="container">
             <div class="carousel-caption">
               <h1>My Pictures</h1>
@@ -94,12 +97,12 @@
         </div>
 
         <div class="carousel-item">
-          <img class="carousel-pictures" src="images/myHobbies.jpg" alt="Hobbies">
+          <img class="carousel-pictures img-fluid" src="images/hobbies.jpg" alt="Hobbies">
           <div class="container">
             <div class="carousel-caption text-right">
               <h1>My Hobbies</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-light" href="pages/myHobbies.html" role="button">View</a></p>
+              <p><a class="btn btn-lg btn-primary" href="pages/myHobbies.html" role="button">Explore</a></p>
             </div>
           </div>
         </div>
@@ -117,52 +120,49 @@
     <!-- Featurettes -->
     <div class="container">
 
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="featurette-pictures" src="images/2018topsongs.jpg" alt="2018 Top Songs">
-              <div class="card-body">
-                <p class="card-text">Click the link below to see my 100 most listened to songs of 2018 on Spotify.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a class="btn btn-sm btn-outline-success" href="https://open.spotify.com/user/spotify/playlist/37i9dQZF1EjvSUkHw09NgY?si=zvMAYxWsQMO_85N6L6vF2A" target="_blank" role="button"><i class="fab fa-spotify"></i> Top 100 Songs of 2018</a>
-                  </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="featurette-pictures img-fluid" src="images/2018topsongs.jpg" alt="2018 Top Songs">
+            <div class="card-body">
+              <p class="card-text">Click the link below to see my 100 most listened to songs of 2018 on Spotify.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="btn btn-sm btn-outline-success" href="https://open.spotify.com/user/spotify/playlist/37i9dQZF1EjvSUkHw09NgY?si=zvMAYxWsQMO_85N6L6vF2A" target="_blank" role="button"><i class="fab fa-spotify"></i> Top 100 Songs of 2018</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="featurette-pictures" src="images/adventures.jpg" alt="Resume">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="featurette-pictures img-fluid" src="images/adventures.jpg" alt="LinkedIn">
+            <div class="card-body">
+              <p class="card-text">Visit my LinkedIn profile for my latest proffesional updates.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="btn btn-sm btn-outline-info" href="https://www.linkedin.com/in/micahlocke/" target="_blank" role="button"><i class="fab fa-linkedin"></i> LinkedIn Profile</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <img class="featurette-pictures" src="images/resume.jpg" alt="Resume">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img class="featurette-pictures img-fluid" src="images/resume.jpg" alt="Resume">
+            <div class="card-body">
+              <p class="card-text">Click the links below to download my résumé as a Word doc or PDF.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="files/Micah%20Locke%20Resume%202019.pdf" download="MicahLockeResume"><button type="button" class="btn btn-sm btn-outline-danger"><i class="far fa-file-pdf"></i> Download</button></a>
+                  <a href="files/Micah%20Locke%20Resume%202019.docx" download="MicahLockeResume"><button type="button" class="btn btn-sm btn-outline-primary"><i class="fab fa-microsoft"></i></i> Download</button></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
     <!-- Marketing messaging and featurettes
   ================================================== -->
@@ -185,7 +185,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-            <img src="images/lonerism.jpg" alt="Tame Impala - Lonerism">
+          <img class="img-fluid" src="images/lonerism.jpg" alt="Tame Impala - Lonerism">
         </div>
       </div>
 
@@ -197,7 +197,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5 order-md-1">
-          <img src="images/battlefield.jpg" alt="Battlefield V">
+          <img class="img-fluid" src="images/battlefield.jpg" alt="Battlefield V">
         </div>
       </div>
 
@@ -209,7 +209,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img src="images/trueDetective.jpg" alt="True Detective: Season 3">
+          <img class="img-fluid" src="images/trueDetective.jpg" alt="True Detective: Season 3">
         </div>
       </div>
 

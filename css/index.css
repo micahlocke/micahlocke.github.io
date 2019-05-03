@@ -18,6 +18,8 @@ h1 {
 
 .nav-item {
   font-family: 'Scada', sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 /* Carousel */
