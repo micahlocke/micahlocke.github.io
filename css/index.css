@@ -3,7 +3,8 @@ body {
   font-size: Medium;
   color: #000;
   background-color: #fcfcfc;/* off white */
-    text-align: center;
+  text-align: center;
+  padding-top: 75px;
 
 }
 
@@ -31,7 +32,6 @@ h1 {
 }
 
 .carousel-inner {
-  padding-top: 75px;
   padding-bottom: 25px;
 }
 
@@ -56,6 +56,6 @@ h1 {
 .download-buttons {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 75px;
+  padding-top: 25px;
   padding-bottom: 25px;
 }
